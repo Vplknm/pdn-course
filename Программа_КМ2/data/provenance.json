@@ -1,0 +1,614 @@
+{
+  "source_url": "https://github.com/dialogue-evaluation/factRuEval-2016",
+  "archive_sha256": "95643f507b12d568f25edb1be0fac1bb83733fb8a3b8e1d35da4f4922d3ee79f",
+  "selection": "100 files from testset in ascending numeric book identifier order, no quality-based filtering",
+  "download_date": "2026-11-20",
+  "mapping": {
+    "name": "NAME",
+    "surname": "SURNAME",
+    "patronymic": "PATRONYMIC"
+  },
+  "augmentation_seed": 20261120,
+  "records": [
+    {
+      "id": 1,
+      "file": "book_3539.txt",
+      "text_sha256": "704a19ae5b66d0f86ff000a288cd1996ff0576d30c1d4928de1c288600b671dc",
+      "spans_sha256": "d13672d321f74cb1308d118fe73fa7cb763bb433671d61347b765a109f909129"
+    },
+    {
+      "id": 2,
+      "file": "book_3543.txt",
+      "text_sha256": "69ca58606451773804f880c9b47b807b66fae244e7591a61d1a15917da12c596",
+      "spans_sha256": "372a60a38fa62f9e2e64bd1a3d84505042e02f7d68400765b226c58ea0389d3a"
+    },
+    {
+      "id": 3,
+      "file": "book_3555.txt",
+      "text_sha256": "169f3681471c9e5356de35c7913973b706a13f5aca21ff75719927bd7e4e9d65",
+      "spans_sha256": "50a401e5d6e27df1d85280f0e8d69e804f30dbeda73868c015c1a2b3cab099fd"
+    },
+    {
+      "id": 4,
+      "file": "book_3562.txt",
+      "text_sha256": "c41d8394de3771fd9c2a4d42393a058b6856a709172289d2c1b08caf708bee60",
+      "spans_sha256": "5e468df5b91a82a5f78481a5bf92e78747e2abf342f8079fe027fe91cdc25f75"
+    },
+    {
+      "id": 5,
+      "file": "book_3573.txt",
+      "text_sha256": "eda24fccb056763a3dd441108ed0320f647801b2102607f427458546d74de73f",
+      "spans_sha256": "53e1021467d7eb7004a4d956135efa19a09386410099c587ac601aec961319f1"
+    },
+    {
+      "id": 6,
+      "file": "book_3574.txt",
+      "text_sha256": "de6558463b2603f54e704c7576e725e54e30420b9bd774c62cd3dc014546c871",
+      "spans_sha256": "390e9cd6fa1a9701f386edf452758c4dc9a7dba74d190384b4c243e9db0b84b1"
+    },
+    {
+      "id": 7,
+      "file": "book_3581.txt",
+      "text_sha256": "bd0e93dfbdbc950c555212024023aeea51280f6f6a3f16f372fa1f660a2f00ec",
+      "spans_sha256": "ecf55db5fcceb148181c15b463b14d139301a6e6e787bd0f0729c9c61a0c1edc"
+    },
+    {
+      "id": 8,
+      "file": "book_3591.txt",
+      "text_sha256": "ffc1d6049da249f018c2431cf4fdd6addc82f5dae7c90e432bf604d3fb285482",
+      "spans_sha256": "6ba85165b76ba50203f177f009d1fe8c95f97e0293c1bf1d65a218282cb4dcb6"
+    },
+    {
+      "id": 9,
+      "file": "book_3602.txt",
+      "text_sha256": "148d61aeaf0dfc2748ff39ae047dfa1ef6c6449c71ef2ea764335d7d6fb55548",
+      "spans_sha256": "57396550db1ecf31be1fc9a31c4abb3c7d7d9d14681f2754e78628fa8e1109ff"
+    },
+    {
+      "id": 10,
+      "file": "book_3615.txt",
+      "text_sha256": "32bbf402dd2dc37a039ca8aee62f66a5000cb77aef0fd775ce7ee25221ffdf0f",
+      "spans_sha256": "5302b3a098dfe50410b6f5618608173f73b8e21107095b5024d452959d860f9f"
+    },
+    {
+      "id": 11,
+      "file": "book_3626.txt",
+      "text_sha256": "47bfece5d705454abef9c14e5e3735b46479b5ae6a69d65f7b5c72aadeeda433",
+      "spans_sha256": "a47c62da1e480f5c22180c9dbb5b90f935a38fbdfa2369cd804b50855fda4551"
+    },
+    {
+      "id": 12,
+      "file": "book_3632.txt",
+      "text_sha256": "e1171d015be7d68e15ec189d5551741dd3fecc358d454c61a01330c4d491b360",
+      "spans_sha256": "6802c4e064d0b189532d1b20284947a8ae740b6a72939c639bc6b9ee969c8c55"
+    },
+    {
+      "id": 13,
+      "file": "book_3644.txt",
+      "text_sha256": "8c06dd4976ffbeb27ad8cde99a19a2391a49e5c0007ca88451c84f00293dd436",
+      "spans_sha256": "ea58d0a292add6bb67b2979cca230897465239c31c880cc1c21917da08cb74fc"
+    },
+    {
+      "id": 14,
+      "file": "book_3647.txt",
+      "text_sha256": "0f1cd24729778b163fdc920265dc16b659d5c61c3a395216ba8e74405582d29e",
+      "spans_sha256": "9fe6ba2323ea73903340f6b844b6708084ea1f2715f2558ab686f72679836e1d"
+    },
+    {
+      "id": 15,
+      "file": "book_3667.txt",
+      "text_sha256": "6f6674505fbfa4ad1ca26717ffa4a02b401d400863514f7b54b044917b4ba376",
+      "spans_sha256": "7b4cb908a870e7d1a7b908eef40a97ab36484b0724c9042864c40cf5f67adc70"
+    },
+    {
+      "id": 16,
+      "file": "book_3677.txt",
+      "text_sha256": "34fcc44f09bae3d9eddb9a28be5dfbb25130fde1682ae587e11cf5a440165b62",
+      "spans_sha256": "1239de44580bd5c883ea48315e7290bd2baa0e1ebf7d0c1ea6ad512bfa387d91"
+    },
+    {
+      "id": 17,
+      "file": "book_3680.txt",
+      "text_sha256": "f399accaf8a41ebf306e718dc19c81704ea57b91460c45357cdbf3e5eca86ecd",
+      "spans_sha256": "5de775e503715595700751844136fdbe201a288b963c10a4dc67daf9d771fffc"
+    },
+    {
+      "id": 18,
+      "file": "book_3687.txt",
+      "text_sha256": "f046053e4df91d15009ea4bef3ed7a9e4be79e1f916cdbb074bd17290041d9fa",
+      "spans_sha256": "666e87b55042e24955e94c2dea91a062b6553e4e5a7dea036a1877e6903616ee"
+    },
+    {
+      "id": 19,
+      "file": "book_3688.txt",
+      "text_sha256": "95bfc5d8d7494e478c51a4686b0360c97873a93176efa061e6373392c8aaccb4",
+      "spans_sha256": "1235136290a0176c2ded4b2a03c8903456f85e21e0eed119dc14b62f707bce2f"
+    },
+    {
+      "id": 20,
+      "file": "book_3696.txt",
+      "text_sha256": "c5f7dc57c8b96227b45038a0a12e89804d01bd07acbb5cbf0297b1dc7e8ab6cd",
+      "spans_sha256": "2b96cbefc9406b1a215609c3f98ee6d360f8ebe47d258103898847ee1fcedb22"
+    },
+    {
+      "id": 21,
+      "file": "book_3697.txt",
+      "text_sha256": "2415306c4f77ef68bdab226b8a6cf2f8db09780e5e8c2c7fc28f741846f3cbb6",
+      "spans_sha256": "6070d2934342c13ef37790126d3fdf439a91e134f8a1b83d7bca2c8fb3771a6a"
+    },
+    {
+      "id": 22,
+      "file": "book_3700.txt",
+      "text_sha256": "9fdc780a285b48b9c6cc96b2bd795b9963f490fec3339991de62ec78ef0def71",
+      "spans_sha256": "7495ecada26201076e367e006b9e662be676eae3d632286b57e9661a68539fdc"
+    },
+    {
+      "id": 23,
+      "file": "book_3702.txt",
+      "text_sha256": "5ae9f69db6fd789ec44f18194f85a8dcc4697236ce743e157f5c22ed612a6244",
+      "spans_sha256": "4fc6f5e6d3b2d9df2499273675bc34631be2446722225bde4038aa8e03be3f1c"
+    },
+    {
+      "id": 24,
+      "file": "book_3708.txt",
+      "text_sha256": "0407b848c485bb019a217e4c437585ac526e23f99ce072e447cf88a32dc91866",
+      "spans_sha256": "4343c840cf5d5e834e69a5d9bd4afcba0d0a59fa907bef80fe32242fceea0e34"
+    },
+    {
+      "id": 25,
+      "file": "book_3714.txt",
+      "text_sha256": "a8b3c7e3756a0f304dc5d9b16f081d93fea696ac5f72277eb9b33080f6494e1b",
+      "spans_sha256": "a8559f224253aa64a1dea5fd20186a7100d6864a731a69c95015ad1aaaace28b"
+    },
+    {
+      "id": 26,
+      "file": "book_3716.txt",
+      "text_sha256": "a0f5a6998e7cc08c031a446dfe2260954bbd751a431c6023be35f3b88ad37263",
+      "spans_sha256": "f52a6e5fd7fb90c1c59de182f2d18ad33d2aacb31e77926ebc8a4463d6add03b"
+    },
+    {
+      "id": 27,
+      "file": "book_3725.txt",
+      "text_sha256": "c4cba010ee8e9753799e6184a472d980ee75ae5468926d3fbd469dfcb6d5ed8a",
+      "spans_sha256": "6c866735cb8317b19fdc930e8df5a746610131f0d5422a5fb8b42673438d68fb"
+    },
+    {
+      "id": 28,
+      "file": "book_3734.txt",
+      "text_sha256": "47f8d6b6f622799bc980b540e4487fe6c292b2302e809763c615063d9b43382d",
+      "spans_sha256": "1125fe08d4c4a32aadef95450a001eb315b8374476983b6738a14e3833a7d3f5"
+    },
+    {
+      "id": 29,
+      "file": "book_3744.txt",
+      "text_sha256": "b6d28765fb6c5d61cc862a4aa1497136b77f4ed39e3040ecbbba198280bc741a",
+      "spans_sha256": "16ac4ea77693b9ec85a93749590db253b1058b2b85dee4681d5439e851d7e9b2"
+    },
+    {
+      "id": 30,
+      "file": "book_3746.txt",
+      "text_sha256": "3c2f64095f2e0907700145d410f3d4e3876aab89f223c684e79926300cb845f3",
+      "spans_sha256": "cbd4b9bae656c5095c3443023eeb9d6f61a1afd1b5131dbc7227f86bc77a4dd2"
+    },
+    {
+      "id": 31,
+      "file": "book_3752.txt",
+      "text_sha256": "da0b394be06e9ef9b3c8969b26a84613ab669997cd2d4bb6b8a944c4a4034591",
+      "spans_sha256": "3a2b8ec2b46c719590aaff569c9483b0825a3a920dc792af3a8c8fc2451e4da9"
+    },
+    {
+      "id": 32,
+      "file": "book_3756.txt",
+      "text_sha256": "a4d13e5b6dab69a9908876045d44e7d4d30afbe79ad8f63bfef7184e510bab07",
+      "spans_sha256": "bf8c811311a9712eb078ffa6e4313de2137b105cc9e9491566cd8bb0ebde4a27"
+    },
+    {
+      "id": 33,
+      "file": "book_3757.txt",
+      "text_sha256": "61d332cf2b65bb6214049d1dde4eccf79c1639038ccb4f00ce2849556d4e3d57",
+      "spans_sha256": "6b622227cbf00c2d78c73db215663557f48611e7caead981da7c897d5a43b3ff"
+    },
+    {
+      "id": 34,
+      "file": "book_3758.txt",
+      "text_sha256": "fb6257e24b7ae4bd725a0b9c2212c17233abd54e21e0e00b71800b963688c2f2",
+      "spans_sha256": "639ac10ae2e360ea4368a7405d0e8c64043cedbe3da6064bd969a8e60772396e"
+    },
+    {
+      "id": 35,
+      "file": "book_3760.txt",
+      "text_sha256": "2fbabb2be13288f5b8a2022be59ed0bd0c7d60581bd97d374b140735ff4987c4",
+      "spans_sha256": "1cddbc04ab099dce5b60b196cb077f0a4b038145249d63fe11df571b50dd9649"
+    },
+    {
+      "id": 36,
+      "file": "book_3762.txt",
+      "text_sha256": "1b7ee86efd7d0992e5e0c01be894eb17503afa2f91292bc367e07e63bd3d5b0a",
+      "spans_sha256": "eae5e87f23044affa23e87b88f9458104f0ece5c553f3cf1f073b3b0f95666a2"
+    },
+    {
+      "id": 37,
+      "file": "book_3763.txt",
+      "text_sha256": "060288f528b8bdbc5065701628ddab1f5a3289f2fb4d8dbd3bb5f0170d2e6b24",
+      "spans_sha256": "05ff9d04dfec8c4ac0769d97567d8c1230ffa7c64f0d62c7daad896c0c826cdf"
+    },
+    {
+      "id": 38,
+      "file": "book_3764.txt",
+      "text_sha256": "c877d9c3d76857c52b35abd0d35b29d78ac1d0abee7edbc90b2c0f251c456c8a",
+      "spans_sha256": "14702f3b0a8545db5bf5a70661d5bd5c73e3043901ccf16ced14198e32822de4"
+    },
+    {
+      "id": 39,
+      "file": "book_3765.txt",
+      "text_sha256": "23622f6ec2d3226759afacde4aa5cef5ebcae341537af770e371052b55c1b49d",
+      "spans_sha256": "e7c5d8686874b0bb841a94e8f517c20f68d59330dae565306b71800340c4c644"
+    },
+    {
+      "id": 40,
+      "file": "book_3767.txt",
+      "text_sha256": "427e3230c1fedc88bebfde1510a427f963bd481eec4be9436b8b66dbf73a42f3",
+      "spans_sha256": "69d9537e6629abc8ba701818f68b3fbe02951f6788d0d576a768a4f33d21bf35"
+    },
+    {
+      "id": 41,
+      "file": "book_3768.txt",
+      "text_sha256": "a3da9d08ecf640cf3e005611f69d1f61cb48f8601227488d9320556637ff5687",
+      "spans_sha256": "1b1da1e357636714e861df54f4b069529c51260eb938b8a206815aa190f9687f"
+    },
+    {
+      "id": 42,
+      "file": "book_3769.txt",
+      "text_sha256": "5081b89338cce5bc883818bf25be5c22b7aaeb076220e8ebb0e9e7f4f5345c47",
+      "spans_sha256": "e982e68fb63099b5b94b11c306084362b10693e7f92215f9ba44ca678840c402"
+    },
+    {
+      "id": 43,
+      "file": "book_3770.txt",
+      "text_sha256": "003de49401f8ba109db2b725481ce0068569298207b0cf37b4c5720061475624",
+      "spans_sha256": "16836830e602c5f172322af69dc1eb888e2ca0c952e53fc3abb3eb83206cc312"
+    },
+    {
+      "id": 44,
+      "file": "book_3771.txt",
+      "text_sha256": "8d01df1cdbb56cbe3881f2de6d80a557b31e60164fa9a41d20e3490d3c08e373",
+      "spans_sha256": "05f08166278162bdd95403b3486dbed80e98a8f829e2f58564ab6552421a7609"
+    },
+    {
+      "id": 45,
+      "file": "book_3772.txt",
+      "text_sha256": "65701882d01ea4075357dc812b2602c3aacad8126230bed98558fadefb75d5e8",
+      "spans_sha256": "069a4d936e9e2106263634280b5af696b23bcbffb40613e1c2ae8fb2f25732ca"
+    },
+    {
+      "id": 46,
+      "file": "book_3773.txt",
+      "text_sha256": "a5f5db1503dfb1b38f132660059eea3ca9c9abcdd11d53088d01702dad34575d",
+      "spans_sha256": "42868943dddf5fd2d905a8bae9645914a0131ee7023d65941a7a36f868eb2ef7"
+    },
+    {
+      "id": 47,
+      "file": "book_3774.txt",
+      "text_sha256": "3571b7c935fb42222b8c88c76cc9f0bfeb6a85b0e187cc3ed043e8bb940793f5",
+      "spans_sha256": "e5bd2d309672925e7d6acaa4e98ccbeec36e0063839067fe7e2da4837f322d14"
+    },
+    {
+      "id": 48,
+      "file": "book_3775.txt",
+      "text_sha256": "6f140edbcd4bd9d5d39bfba1579e580f1d02f061f3db5675de92399045cd8859",
+      "spans_sha256": "027b4e10d18be5837cc8a0e4c471343b54fb0fc245d8509a7188308a7cdea809"
+    },
+    {
+      "id": 49,
+      "file": "book_3776.txt",
+      "text_sha256": "ddb3241d141308b3c6180d67929336562651a73405b35adb7b797f265e20d30f",
+      "spans_sha256": "c15915203bb68b0c7502e7fb56f08546e156b4c5ea8303915a651cdc7a6ed039"
+    },
+    {
+      "id": 50,
+      "file": "book_3779.txt",
+      "text_sha256": "bdcdd0d5334ebf035bd8bad3c3c33e07cfb6a730f1d5e224d88ee1e6bbdd41c0",
+      "spans_sha256": "027f575faea6e6c22ddae71b8d91d959f112219215fa09d136c3fc983f724802"
+    },
+    {
+      "id": 51,
+      "file": "book_3780.txt",
+      "text_sha256": "d72a80f1dc63c1bcc6fbfb8a93e555bc15d432242affa581626a428c935190ec",
+      "spans_sha256": "a7fc11604fe05d0ab7406110129983cc636ba476b974f9e25562d8211f00dc68"
+    },
+    {
+      "id": 52,
+      "file": "book_3790.txt",
+      "text_sha256": "cee18820b36deeeed7b6c8a06b0235a3721b17fade71826c3588363f032c2832",
+      "spans_sha256": "45c993132bfd0d02220b5177d8e708d36b783cb476f45495eb31a9b2c41be816"
+    },
+    {
+      "id": 53,
+      "file": "book_3791.txt",
+      "text_sha256": "4563fdcec5c440000a850dc1cea24a84a7727f8b05bdd658e2486976c1b781cc",
+      "spans_sha256": "3b6fff227e6cb6997e4fc5442bf284c841b1c271d67fc83fd01366833559d986"
+    },
+    {
+      "id": 54,
+      "file": "book_3792.txt",
+      "text_sha256": "1549e643f23b9ca42852cdc9c30dec2ead784782d8db9d19c7c9bc3f00f9d9bc",
+      "spans_sha256": "811336aed90316403fed900af213f49041ed958966d218b5b5da3a04a2d51cd7"
+    },
+    {
+      "id": 55,
+      "file": "book_3793.txt",
+      "text_sha256": "ab828bd3b722f95db1d71388dc90ad6ce6de95a3b46ebd43d7ec24f191604e59",
+      "spans_sha256": "63685a1899d3f52a3211919de7d996358d7c70577ef0a89237bfd334234038e1"
+    },
+    {
+      "id": 56,
+      "file": "book_3794.txt",
+      "text_sha256": "6d8735783d6daef7c14583e4e8eee20e1051ec5db0d298c206bc073595e55281",
+      "spans_sha256": "34b202f6056afb862afc0ffa2176a0b82503838ea64cbbe0d0b4dd64a39cd382"
+    },
+    {
+      "id": 57,
+      "file": "book_3795.txt",
+      "text_sha256": "62c166cdc1d21917b171bb09df085fa588b9196eb920aa96555976ac48a1116f",
+      "spans_sha256": "bd8ec4a615be50af1c19be0f501075d4d268e5c45753341ad6f82c86646dbefe"
+    },
+    {
+      "id": 58,
+      "file": "book_3796.txt",
+      "text_sha256": "9483a1d123f00e12218e3f3dbd783ef70eb85d3ae7167a3c20c7e5ca9b438bd6",
+      "spans_sha256": "673207b87b01bbb8e67a84a22345b7b03e2066100897bb157e6debe80e4cfab0"
+    },
+    {
+      "id": 59,
+      "file": "book_3797.txt",
+      "text_sha256": "497df695e9bb0c754c8e8adb71d6fe80119852c6baa29a9c507d85d6a0fa0077",
+      "spans_sha256": "0df9b315e47d2b85fe2532a6dde82269a6914ebffec8e822590f2d4c8db1217e"
+    },
+    {
+      "id": 60,
+      "file": "book_3798.txt",
+      "text_sha256": "360c831ff13285d01f79f2dd6ff3c33aa52470a30b8300801e4892669f638a5d",
+      "spans_sha256": "07f3de26bc57b60db3339d4808f586733405038f9e8561d8206d4f7561be167d"
+    },
+    {
+      "id": 61,
+      "file": "book_3799.txt",
+      "text_sha256": "2b072db4bfe3661b668678e12f881c9aa814cd62305f157f114c3bc1fae6a614",
+      "spans_sha256": "b7b4013769cf57827cf54b60e7bc352fa901b5b82be99369911711de9c5a5d03"
+    },
+    {
+      "id": 62,
+      "file": "book_3800.txt",
+      "text_sha256": "93ecb51dad2a2daa2ca3156824b651ad425e714ee85ee4431f2a94ec4452752f",
+      "spans_sha256": "0ef605e47d2534aaf1e53bafaa3f90e58032d98baeef5bb92d892d5e94a23510"
+    },
+    {
+      "id": 63,
+      "file": "book_3801.txt",
+      "text_sha256": "d9dcf5e0904904a9cff3c0ba13ed98185b9086b44001e81056da708ca0f52c84",
+      "spans_sha256": "8da078a6084b4e9bdf20ce48dac1bedc9a4beaceff4060ba6865da15c4b68772"
+    },
+    {
+      "id": 64,
+      "file": "book_3802.txt",
+      "text_sha256": "fed832e57606f6ecb476929b5711ad8c5b11edb1158c97761307257e480ad52f",
+      "spans_sha256": "2708d720ad2dac2d56a8ef6a4a123fc1f519bb3d5da41274b48359c8473d9d0f"
+    },
+    {
+      "id": 65,
+      "file": "book_3804.txt",
+      "text_sha256": "06c8a65f8e1d016f135f249a401adc3a10078e7955aeea26c2aae9594ffbea9e",
+      "spans_sha256": "7076bdd1c43fcae9697fa8da9ba6ac37580d0704a71aa67dd12fd51b47863af6"
+    },
+    {
+      "id": 66,
+      "file": "book_3805.txt",
+      "text_sha256": "10f65c939122b122a34aba50fba2f2165ba076c231d199a7e3460c42b10a3b84",
+      "spans_sha256": "0418b1a596e95972c9dfa19d95c9c3da5c6bc07f8e85e9cd7c1ecab8460f71db"
+    },
+    {
+      "id": 67,
+      "file": "book_3806.txt",
+      "text_sha256": "0971beb4c2b94ca0487b6e9eace21d291da25454bbd9a42294c583f6d452aa5a",
+      "spans_sha256": "5901208adac9f75afbea3b2fed7466b0cfd89bb23a5a9a72076f7da9897360c8"
+    },
+    {
+      "id": 68,
+      "file": "book_3808.txt",
+      "text_sha256": "fc088199208a3dab2a9742c77c47c19d68514303e3bbe6be51a6bc97223eb7f7",
+      "spans_sha256": "098435b6ddc68aa7579b5128f81393fc82beca515c6ac6504fddcdd69f420f1e"
+    },
+    {
+      "id": 69,
+      "file": "book_3809.txt",
+      "text_sha256": "de607c9285e2a847196dd986eb45d4a68ea3a6af3271986eaef05d748b1206a8",
+      "spans_sha256": "969f97c61bc36f4a8d73e27cabfa3c225ff1fb74a5a452ff21cf9a44bf9d21d9"
+    },
+    {
+      "id": 70,
+      "file": "book_3810.txt",
+      "text_sha256": "7a1ced0c09f8ed58fd3e36755bc6460df002844cdb95bb810854eca9a627f26e",
+      "spans_sha256": "cfde0d41d2144559eb3dae7b06c427dd65b9d4b22d06780a5f25662a8488bc6f"
+    },
+    {
+      "id": 71,
+      "file": "book_3811.txt",
+      "text_sha256": "fe82f11166429e4b7218bea1d9bf4ced87361ad6754f2903eb5eb48e945d96ab",
+      "spans_sha256": "ddbb034f57139aedd1d62a38946d4cecbadd0ebc680c38dfa1669f6cd658dedc"
+    },
+    {
+      "id": 72,
+      "file": "book_3812.txt",
+      "text_sha256": "39da9139061e8903a3ce37bc0dccdab851a9608ca89cc9aa6d12da9f0e4fa00a",
+      "spans_sha256": "f32f29d20a325a2c70cf1220aaa35637fd9a19440760bc43ff7562dd7f45c13d"
+    },
+    {
+      "id": 73,
+      "file": "book_3817.txt",
+      "text_sha256": "b097873f705a53da1f8a0545873dc59d14c1748409090259d682f610fb27338a",
+      "spans_sha256": "79cddde4f3b995f6fb5018395462c6209f35b1dab20385e1dd00ed83e7aa4d5b"
+    },
+    {
+      "id": 74,
+      "file": "book_3820.txt",
+      "text_sha256": "f206f827f077039780bb89085b9199050951556a2229b105af9303dfa010e2ec",
+      "spans_sha256": "9301ca298c65fcbfeecd42099f41a119e37119b64fba1dba7919458dd325e16a"
+    },
+    {
+      "id": 75,
+      "file": "book_3824.txt",
+      "text_sha256": "befba9a24015ff4e5f10502f45a2ccc23c908f3f90174d1cf0a9780601a4021a",
+      "spans_sha256": "791fd52f9181314691e8a71a0cfdb9dc876627a23c1cca4af2b451a10761e49e"
+    },
+    {
+      "id": 76,
+      "file": "book_3828.txt",
+      "text_sha256": "6de6fc0279270676376cf8d3ad73e413c28881de1f319f5dfc78a106fd01c4b2",
+      "spans_sha256": "11ecb13a0a1da6416766ae3f1189f478290399370934d4029e830a5f9476349c"
+    },
+    {
+      "id": 77,
+      "file": "book_3829.txt",
+      "text_sha256": "a686ffb326db805c79042f4d38514d439564ace405fb269d7a0d71fc319be956",
+      "spans_sha256": "6b65462eb4047469f25665e5fae7cc5583042e6a3437c5f7ea547489facf5d97"
+    },
+    {
+      "id": 78,
+      "file": "book_3832.txt",
+      "text_sha256": "04a542cb5559b79fe6bfc1caba1b86192fff7a752127c145e6a5e4f7720e94d6",
+      "spans_sha256": "84cff674b9a5a4ea6dcbe365e372f7d7b1e60aec28790ecee68ebc02e0be6162"
+    },
+    {
+      "id": 79,
+      "file": "book_3833.txt",
+      "text_sha256": "5f0eb18a6c9382be26af1abb69fbaf13d5d0582bf143050718f6dacab30dda48",
+      "spans_sha256": "47d7ce867dcc95c8f14a00951d1d5e7500dfceda938e44cbfea686e314dd746e"
+    },
+    {
+      "id": 80,
+      "file": "book_3840.txt",
+      "text_sha256": "a116ed49554e17eb386cdb925dd8c69caa5e96c957b78c5ad3af97ce4d9f3c86",
+      "spans_sha256": "2a067b96fb8bf15df4d1d7e1a4d49705ec5a3e10233931b92013283fa333efb4"
+    },
+    {
+      "id": 81,
+      "file": "book_3842.txt",
+      "text_sha256": "899a3c85913fcba5c3b6808c6a724b5009facf1a0be0dbb1ffc59ee3c2dbde01",
+      "spans_sha256": "d77f8ebb31051eb9cc4dec74822dc23ca2cefb335a826e49ca885c3411e19bda"
+    },
+    {
+      "id": 82,
+      "file": "book_3860.txt",
+      "text_sha256": "1a101a6b89bf7e408e94d4007555aad3234b6f831c92967c3bce8c937b7de376",
+      "spans_sha256": "83e2aedd918ed7546ce33d7b971c6587c5c6a390aaaf2fa46e5ec611ba1d74b9"
+    },
+    {
+      "id": 83,
+      "file": "book_3865.txt",
+      "text_sha256": "98397bf6f6e77439b64babdce6d3d2a03ce48bc06f4a4216da1636cbbff3e595",
+      "spans_sha256": "288900ece7a9658fc0e54139b626b8be2f0ef2c3d2b62980bd006c870ad778bf"
+    },
+    {
+      "id": 84,
+      "file": "book_3872.txt",
+      "text_sha256": "22d5d13ca3bb27088c064b64d01e53e8417dde846600768d8e9c321971ce01d9",
+      "spans_sha256": "d5be2aeb3fca15e39fc131ce2d171fe172b721d0e2fbf12ac692a2296cda7d87"
+    },
+    {
+      "id": 85,
+      "file": "book_3876.txt",
+      "text_sha256": "bbadcb79212fa9c9e2c550cf833d1c852aeabe433d99f8c6685096c5e46825a2",
+      "spans_sha256": "39ddedac6b0e79f6f3efa2e90d44bb7f82e226da94a8a7d6359a17a27f42489a"
+    },
+    {
+      "id": 86,
+      "file": "book_3877.txt",
+      "text_sha256": "fe8925eb04a6c18bea060739e526caaefa2daf9c0a6d2bfbf190d38bca6ec019",
+      "spans_sha256": "4e2d9fa88d1625f8f3c318704c702fc24ed2d4fc40acbc9f49398446dcfdb574"
+    },
+    {
+      "id": 87,
+      "file": "book_3878.txt",
+      "text_sha256": "b087e6eed9d1e2812da365d465bb867eb15fd73b31a2d31058a89d27901e22ba",
+      "spans_sha256": "8a917a3eed0419819c8831ff893af54893b843ec5469e5a1ed78501e3e4a436f"
+    },
+    {
+      "id": 88,
+      "file": "book_3880.txt",
+      "text_sha256": "d05efaa43c09129906f7ee946d24b66ad58f3cd3a33e9d3118f0446e351cc8b2",
+      "spans_sha256": "410c945e7b9ee14e5f213158c0dec8fb6b0941e2063ac92d5555d47d0e0899fa"
+    },
+    {
+      "id": 89,
+      "file": "book_3881.txt",
+      "text_sha256": "bc0f02e38dc61ff5e7666fef7d0f6088842cba723c2a332518900f7467668802",
+      "spans_sha256": "c98638d49df391f8e56ff571ab1d19b86e6d5a1e6ab1c6dfec45a8abec2a67fe"
+    },
+    {
+      "id": 90,
+      "file": "book_3882.txt",
+      "text_sha256": "ff6fb5357f89bcc35c1cbc5e5908aa0df618037110db2aa0a4364ae6637f45d9",
+      "spans_sha256": "bae43b5325fb8b75628476fb1abaa958b6dd1f132603b9f5bc45e5b86951495d"
+    },
+    {
+      "id": 91,
+      "file": "book_3883.txt",
+      "text_sha256": "a0ae54f66002ed653997f0507725ce44d48f6f8194c0563c903b44009c6b704c",
+      "spans_sha256": "e6800738170db1846f0fa510e0b7fe2849b910cc233189ebcfdf1c1870574d11"
+    },
+    {
+      "id": 92,
+      "file": "book_3884.txt",
+      "text_sha256": "abeec3f61cd87340a103796babf09cf8099bc1c7f598ebe90cada0096fc30961",
+      "spans_sha256": "bcec1e24eb455a238a056c152dfc3f21ac55a9fdbb317b799c176edd92c652d2"
+    },
+    {
+      "id": 93,
+      "file": "book_3885.txt",
+      "text_sha256": "d262f312b0f0287d2ea422a050022f95323c06f3096f4fc76dbb5b2760087609",
+      "spans_sha256": "fffc18fb3ad99f196bb6470fc2d159299216596b290ce8825c21c93dd801a2a2"
+    },
+    {
+      "id": 94,
+      "file": "book_3886.txt",
+      "text_sha256": "7efaec81006139de31fc5c50e1ce424e12fc801a0050a62c6bfdcc3cc79b3ac3",
+      "spans_sha256": "a3b996455538dcee724dbc1038bda0b71e3952a9eebf66faf309a8f2a40e9ab2"
+    },
+    {
+      "id": 95,
+      "file": "book_3887.txt",
+      "text_sha256": "305d0cf157cfffee647bd080004126bb559897e6795d49c1e55170fec3e7116c",
+      "spans_sha256": "b6c86df0ba64817b2b35942b5775937637f9f13b578f7a9ac3941e358095af3a"
+    },
+    {
+      "id": 96,
+      "file": "book_3888.txt",
+      "text_sha256": "86e22e76f38f572633d6877d0251b1d046bcc67681cca7d244db40cc03ef870f",
+      "spans_sha256": "e47164b1bda9f2642a98c264ad978b89583f0ab759713bb78236f589993b11d9"
+    },
+    {
+      "id": 97,
+      "file": "book_3889.txt",
+      "text_sha256": "872cde92b8a35ac4f3d12ef1c46bd69f270724ac109296518da09e48cb105d43",
+      "spans_sha256": "6b5b7b8801a6d33c606e9903c8de18e03f5a359aec8905b282267aa2128b62ec"
+    },
+    {
+      "id": 98,
+      "file": "book_3890.txt",
+      "text_sha256": "d0a206762412da63cb7a7705bb2fd31f367028512d1c1d489ee5122bf349e597",
+      "spans_sha256": "94c05c62274f2157fea4b4d8343c6494d43433a304529578be7354379694894f"
+    },
+    {
+      "id": 99,
+      "file": "book_3894.txt",
+      "text_sha256": "1a7422a86f00d526344edeeedde2189b67f555e38ca5fb5cf4f662a8cd2aaf39",
+      "spans_sha256": "5e926685e0d53ee5a0d03aea5f13a106b7763b0b45a10d46441b2754dd67bf95"
+    },
+    {
+      "id": 100,
+      "file": "book_3902.txt",
+      "text_sha256": "e63d024b3e8fe28394269356f931a22201895b8a9f52414dee3bcb9519b7d7b7",
+      "spans_sha256": "fc01d1ea88f30b7fcb28004596c4a103d41040be27127e5030f0dc96fbbd12b5"
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "texts": 100,
+  "tokens": 58826,
+  "entity_instances": {
+    "BANK_CARD": 100,
+    "BIRTH_CERT": 100,
+    "CADASTRAL": 100,
+    "EMAIL": 100,
+    "INN": 100,
+    "IP": 100,
+    "KLADR": 100,
+    "MARRIAGE_CERT": 100,
+    "NAME": 720,
+    "OGRNIP": 100,
+    "PASSPORT": 100,
+    "PATRONYMIC": 124,
+    "PHONE": 100,
+    "SNILS": 100,
+    "SURNAME": 1123,
+    "URL": 100
+  },
+  "accuracy_including_O": 0.9926903070071057,
+  "bio_excluding_O": {
+    "macro_f1": 0.9407609550047488,
+    "weighted_f1": 0.9613111753406002,
+    "micro": {
+      "tp": 8308,
+      "fp": 350,
+      "fn": 329,
+      "support": 8637,
+      "precision": 0.9595749595749595,
+      "recall": 0.9619080699316892,
+      "f1": 0.9607400982943047
+    }
+  },
+  "per_bio_class": {
+    "B-BANK_CARD": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-BIRTH_CERT": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-CADASTRAL": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-EMAIL": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-INN": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-IP": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-KLADR": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-MARRIAGE_CERT": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-NAME": {
+      "tp": 668,
+      "fp": 221,
+      "fn": 52,
+      "support": 720,
+      "precision": 0.7514060742407199,
+      "recall": 0.9277777777777778,
+      "f1": 0.8303293971410814
+    },
+    "B-OGRNIP": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-PASSPORT": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-PATRONYMIC": {
+      "tp": 117,
+      "fp": 79,
+      "fn": 7,
+      "support": 124,
+      "precision": 0.5969387755102041,
+      "recall": 0.9435483870967742,
+      "f1": 0.7312500000000002
+    },
+    "B-PHONE": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-SNILS": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "B-SURNAME": {
+      "tp": 854,
+      "fp": 44,
+      "fn": 267,
+      "support": 1121,
+      "precision": 0.9510022271714922,
+      "recall": 0.7618198037466548,
+      "f1": 0.8459633481921743
+    },
+    "B-URL": {
+      "tp": 100,
+      "fp": 1,
+      "fn": 0,
+      "support": 100,
+      "precision": 0.9900990099009901,
+      "recall": 1.0,
+      "f1": 0.9950248756218906
+    },
+    "I-BANK_CARD": {
+      "tp": 300,
+      "fp": 0,
+      "fn": 0,
+      "support": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-BIRTH_CERT": {
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "support": 200,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-CADASTRAL": {
+      "tp": 600,
+      "fp": 0,
+      "fn": 0,
+      "support": 600,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-EMAIL": {
+      "tp": 900,
+      "fp": 0,
+      "fn": 0,
+      "support": 900,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-IP": {
+      "tp": 600,
+      "fp": 0,
+      "fn": 0,
+      "support": 600,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-MARRIAGE_CERT": {
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "support": 200,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-PASSPORT": {
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "support": 200,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-PHONE": {
+      "tp": 735,
+      "fp": 0,
+      "fn": 0,
+      "support": 735,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-SNILS": {
+      "tp": 400,
+      "fp": 0,
+      "fn": 0,
+      "support": 400,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "I-SURNAME": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "support": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "I-URL": {
+      "tp": 1234,
+      "fp": 5,
+      "fn": 0,
+      "support": 1234,
+      "precision": 0.9959644874899112,
+      "recall": 1.0,
+      "f1": 0.9979781641730692
+    }
+  },
+  "attributes_excluding_O": {
+    "macro_f1": 0.9628763760457786,
+    "weighted_f1": 0.9616990235236544,
+    "micro": {
+      "tp": 8310,
+      "fp": 348,
+      "fn": 327,
+      "support": 8637,
+      "precision": 0.9598059598059598,
+      "recall": 0.962139631816603,
+      "f1": 0.9609713790112749
+    }
+  },
+  "per_attribute": {
+    "BANK_CARD": {
+      "tp": 400,
+      "fp": 0,
+      "fn": 0,
+      "support": 400,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "BIRTH_CERT": {
+      "tp": 300,
+      "fp": 0,
+      "fn": 0,
+      "support": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "CADASTRAL": {
+      "tp": 700,
+      "fp": 0,
+      "fn": 0,
+      "support": 700,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "EMAIL": {
+      "tp": 1000,
+      "fp": 0,
+      "fn": 0,
+      "support": 1000,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "INN": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "IP": {
+      "tp": 700,
+      "fp": 0,
+      "fn": 0,
+      "support": 700,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "KLADR": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "MARRIAGE_CERT": {
+      "tp": 300,
+      "fp": 0,
+      "fn": 0,
+      "support": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "NAME": {
+      "tp": 668,
+      "fp": 221,
+      "fn": 52,
+      "support": 720,
+      "precision": 0.7514060742407199,
+      "recall": 0.9277777777777778,
+      "f1": 0.8303293971410814
+    },
+    "OGRNIP": {
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "support": 100,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "PASSPORT": {
+      "tp": 300,
+      "fp": 0,
+      "fn": 0,
+      "support": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "PATRONYMIC": {
+      "tp": 117,
+      "fp": 79,
+      "fn": 7,
+      "support": 124,
+      "precision": 0.5969387755102041,
+      "recall": 0.9435483870967742,
+      "f1": 0.7312500000000002
+    },
+    "PHONE": {
+      "tp": 835,
+      "fp": 0,
+      "fn": 0,
+      "support": 835,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "SNILS": {
+      "tp": 500,
+      "fp": 0,
+      "fn": 0,
+      "support": 500,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "SURNAME": {
+      "tp": 856,
+      "fp": 42,
+      "fn": 268,
+      "support": 1124,
+      "precision": 0.9532293986636972,
+      "recall": 0.7615658362989324,
+      "f1": 0.8466864490603364
+    },
+    "URL": {
+      "tp": 1334,
+      "fp": 6,
+      "fn": 0,
+      "support": 1334,
+      "precision": 0.9955223880597015,
+      "recall": 1.0,
+      "f1": 0.9977561705310396
+    }
+  },
+  "required_variant4_excluding_O": {
+    "macro_f1": 0.9677015846201418,
+    "weighted_f1": 0.9392057668632116,
+    "micro": {
+      "tp": 4524,
+      "fp": 263,
+      "fn": 320,
+      "support": 4844,
+      "precision": 0.9450595362439942,
+      "recall": 0.9339388934764657,
+      "f1": 0.9394663067178902
+    }
+  },
+  "exact_span": {
+    "average": {
+      "macro_f1": 0.9624226012881608,
+      "weighted_f1": 0.8979973538832637,
+      "micro": {
+        "tp": 2936,
+        "fp": 348,
+        "fn": 331,
+        "support": 3267,
+        "precision": 0.8940316686967114,
+        "recall": 0.8986838077747169,
+        "f1": 0.8963517020302244
+      }
+    },
+    "per_attribute": {
+      "BANK_CARD": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "BIRTH_CERT": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "CADASTRAL": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "EMAIL": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "INN": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "IP": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "KLADR": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "MARRIAGE_CERT": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "NAME": {
+        "tp": 668,
+        "fp": 221,
+        "fn": 52,
+        "support": 720,
+        "precision": 0.7514060742407199,
+        "recall": 0.9277777777777778,
+        "f1": 0.8303293971410814
+      },
+      "OGRNIP": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "PASSPORT": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "PATRONYMIC": {
+        "tp": 117,
+        "fp": 79,
+        "fn": 7,
+        "support": 124,
+        "precision": 0.5969387755102041,
+        "recall": 0.9435483870967742,
+        "f1": 0.7312500000000002
+      },
+      "PHONE": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "SNILS": {
+        "tp": 100,
+        "fp": 0,
+        "fn": 0,
+        "support": 100,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "SURNAME": {
+        "tp": 851,
+        "fp": 47,
+        "fn": 272,
+        "support": 1123,
+        "precision": 0.9476614699331849,
+        "recall": 0.7577916295636687,
+        "f1": 0.8421573478476001
+      },
+      "URL": {
+        "tp": 100,
+        "fp": 1,
+        "fn": 0,
+        "support": 100,
+        "precision": 0.9900990099009901,
+        "recall": 1.0,
+        "f1": 0.9950248756218906
+      }
+    }
+  },
+  "definitions": {
+    "main": "BIO token classification; macro/weighted averaged over B/I classes, O excluded",
+    "attribute": "B/I collapsed only for per-attribute table; boundary errors remain in main BIO metric",
+    "required": "10 attributes of even variant; prediction of other labels treated as other for this diagnostic",
+    "no_finetuning": true
+  },
+  "dataset_sha256": "76004dbd815e675766425ee2b6e0f78d48d935c49c17b861f03be639bbdf5c05",
+  "environment": {
+    "python": "3.12.16",
+    "natasha": "1.6.0",
+    "slovnet": "0.6.0",
+    "navec": "0.10.0",
+    "pymorphy3": "2.0.6",
+    "numpy": "2.5.4"
+  }
+}

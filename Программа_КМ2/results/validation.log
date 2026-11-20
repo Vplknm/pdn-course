@@ -1,0 +1,118 @@
+
+Запуск: /Users/misanyavopilkin/.codex/.chatgpt-projects/g-p-6aa7a7de4a608191aa4b933f03c40916/outputs/km2/Программа_КМ2/../work/clean_env/bin/python -m unittest discover -s tests -v
+test_bad_gold_offsets_fail (test_evaluation.EvaluationTests.test_bad_gold_offsets_fail) ... ok
+test_bio_distinguishes_boundary (test_evaluation.EvaluationTests.test_bio_distinguishes_boundary) ... ok
+test_corpus_is_reproducible_and_minimums_hold (test_evaluation.EvaluationTests.test_corpus_is_reproducible_and_minimums_hold) ... ok
+test_metrics_with_known_confusion (test_evaluation.EvaluationTests.test_metrics_with_known_confusion) ... ok
+test_snils_known_sum_below_100 (test_evaluation.EvaluationTests.test_snils_known_sum_below_100) ... ok
+test_bio_has_one_tag_per_token (test_lab.LabTests.test_bio_has_one_tag_per_token) ... ok
+test_checksums (test_lab.LabTests.test_checksums) ... ok
+test_fio_is_recognized_by_model_without_name_lists (test_lab.LabTests.test_fio_is_recognized_by_model_without_name_lists) ... ok
+test_no_overlaps (test_lab.LabTests.test_no_overlaps) ... ok
+test_output_format (test_lab.LabTests.test_output_format) ... ok
+test_patronymic_is_recognized_in_ambiguous_cases (test_lab.LabTests.test_patronymic_is_recognized_in_ambiguous_cases) ... ok
+test_person_model_uses_context_for_homonym (test_lab.LabTests.test_person_model_uses_context_for_homonym) ... ok
+test_required_attributes (test_lab.LabTests.test_required_attributes) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.057s
+
+OK
+
+Запуск: /Users/misanyavopilkin/.codex/.chatgpt-projects/g-p-6aa7a7de4a608191aa4b933f03c40916/outputs/km2/Программа_КМ2/../work/clean_env/bin/python -m pdn_course.build_dataset
+test_dataset.jsonl 100 текстов
+synthetic.jsonl 120 текстов
+
+Запуск: /Users/misanyavopilkin/.codex/.chatgpt-projects/g-p-6aa7a7de4a608191aa4b933f03c40916/outputs/km2/Программа_КМ2/../work/clean_env/bin/python -m pdn_course.evaluate --dataset data/test_dataset.jsonl --output results/recognition_metrics.json
+{
+  "texts": 100,
+  "tokens": 58826,
+  "bio_excluding_O": {
+    "macro_f1": 0.9407609550047488,
+    "weighted_f1": 0.9613111753406002,
+    "micro": {
+      "tp": 8308,
+      "fp": 350,
+      "fn": 329,
+      "support": 8637,
+      "precision": 0.9595749595749595,
+      "recall": 0.9619080699316892,
+      "f1": 0.9607400982943047
+    }
+  },
+  "attributes_excluding_O": {
+    "macro_f1": 0.9628763760457786,
+    "weighted_f1": 0.9616990235236544,
+    "micro": {
+      "tp": 8310,
+      "fp": 348,
+      "fn": 327,
+      "support": 8637,
+      "precision": 0.9598059598059598,
+      "recall": 0.962139631816603,
+      "f1": 0.9609713790112749
+    }
+  },
+  "required_variant4_excluding_O": {
+    "macro_f1": 0.9677015846201418,
+    "weighted_f1": 0.9392057668632116,
+    "micro": {
+      "tp": 4524,
+      "fp": 263,
+      "fn": 320,
+      "support": 4844,
+      "precision": 0.9450595362439942,
+      "recall": 0.9339388934764657,
+      "f1": 0.9394663067178902
+    }
+  }
+}
+Полные результаты: results/recognition_metrics.json Ошибки: results/recognition_metrics_errors.json
+
+Запуск: /Users/misanyavopilkin/.codex/.chatgpt-projects/g-p-6aa7a7de4a608191aa4b933f03c40916/outputs/km2/Программа_КМ2/../work/clean_env/bin/python -m pdn_course.evaluate --dataset data/synthetic.jsonl --output results/synthetic_metrics.json
+{
+  "texts": 120,
+  "tokens": 13067,
+  "bio_excluding_O": {
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "micro": {
+      "tp": 8360,
+      "fp": 0,
+      "fn": 0,
+      "support": 8360,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "attributes_excluding_O": {
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "micro": {
+      "tp": 8360,
+      "fp": 0,
+      "fn": 0,
+      "support": 8360,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "required_variant4_excluding_O": {
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "micro": {
+      "tp": 3840,
+      "fp": 0,
+      "fn": 0,
+      "support": 3840,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  }
+}
+Полные результаты: results/synthetic_metrics.json Ошибки: results/synthetic_metrics_errors.json
+
+КМ2: тесты пройдены, объём данных и пороги F1 соблюдены.
